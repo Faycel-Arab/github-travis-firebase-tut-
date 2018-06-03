@@ -1,0 +1,19 @@
+{
+  "name": "github-travis-firebase-tut-",
+  "version": "1.0.0",
+  "description": "Testing travis integration through github",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faycel-Arab/github-travis-firebase-tut-.git"
+  },
+  "author": "Arab Faycel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faycel-Arab/github-travis-firebase-tut-/issues"
+  },
+  "homepage": "https://github.com/Faycel-Arab/github-travis-firebase-tut-#readme"
+}
