@@ -14,5 +14,5 @@ before_install:
 install:
   - npm install
 after_success:
-  - firebase deploy --project=$FIREBASE_PROJECT --token $FIREBASE_TOKEN --non-interactive
+  - firebase deploy --token $FIREBASE_TOKEN --non-interactive
 
