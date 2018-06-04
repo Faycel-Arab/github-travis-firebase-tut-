@@ -4,7 +4,7 @@
   "description": "Testing travis integration through github",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jshint index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Faycel-Arab/github-travis-firebase-tut-/issues"
   },
-  "homepage": "https://github.com/Faycel-Arab/github-travis-firebase-tut-#readme"
+  "homepage": "https://github.com/Faycel-Arab/github-travis-firebase-tut-#readme",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
 }
