@@ -9,5 +9,6 @@ script:
 deploy:
   provider: firebase
   token:
-    secure: "E6NEEnRhT9UDtBvqAJXbkCZ1GrqBdkPq4YnDgi+otOZwc5230Z8WTrBz8U7CQqM7GL1hm+e6hRVeEZx7e1Viz64UZaSWxKQOmFRR4PKPvJAZydyzh0HLMDyw4WEFOf0MwbL4Zk+s5XZRX/aOwgHEy+7gUrgScanjplgqfBpd0kB6x/RZD2ZONFf/n61lAC+7Ls2zWFms8VO19t5IjHzj2I/auk8Xx0aEnOkiS0iwcHbiC+Ll+TJJzJys59OtIZZ4OGdPcYCcVj4QvTtc3C/rdr4+WY0O49ZrA8omts/XmAttH0La2Lnd+sNsSXRjEuwnF0DGXtCUYZs+u33DEgLSXZqvdacbNfSdu47FW1f7oCAkDN3zlVayC7Zn1o1K6U5lC4EBMeadqvHgEqY03f4+BSW/p15NhnsOpFYldQb61YKI8LfF8eP276ZC+iCYaYwo6/7mT8fpoLfwEYGqBwsSTLvi7Ea6qP9bpzRDxp56w/cesjhAWDODF6pooqtW32Ww4jZ/GNBgK+gBT5f57BImqRCMR75ixd0pfBGJ+MBwUzt1uf86FFEUB9cmNmCbi9lv+DgFoPKsxyTT+IDoE5/7dQsJfRot2kbbuBEYKzJUJUuMhoB14O9bgfjt/C1QWUoscNVAz0/zGaHsIjH1UvzKRQTWpks/ntHXLIZDlDIHYEE="
+    secure: $FIREBASE_TOKEN
+  project: "github-travis-firebase-tut"
 
